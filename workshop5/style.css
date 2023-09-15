@@ -36,7 +36,7 @@ body {
   padding: 40px 0px 25px 0px;
 }
 
-.item--shadow {
+.features__shadow {
   box-shadow: 15px 25px 56px 6px #0000000f;
 }
 
@@ -139,6 +139,10 @@ body {
 
 .services__item {
   background: #ffffff;
+}
+
+.services__shadow {
+  box-shadow: 15px 25px 60px -5px #0000001a;
 }
 
 .services__buttom {
