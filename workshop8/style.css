@@ -391,6 +391,7 @@
 
   .offer-items__accesories img {
     height: 111px;
+    object-fit: cover;
   }
 
   .main-docket {
