@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CLOTHING STORE</title>
-    <link rel="shortcut icon" href="./img/Group 2.svg" type="image/svg" />
+    <link rel="shortcut icon" href="./img/logo-icon.svg" type="image/svg" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -54,7 +54,7 @@
         </div>
         <div class="header__menu-burger">
           <svg
-            class="menu__hiden"
+            class="active__menu-burger"
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="30"
@@ -111,7 +111,7 @@
     <main class="container">
       <header class="board">
         <div class="board__content">
-          <img src="./img/board-image.png" alt="board" />
+          <img src="./img/board-image.webp" alt="board" />
           <div class="board__content__docket">
             <div class="board__content__docket__border"></div>
             <div class="board__content__docket__text">
@@ -122,50 +122,45 @@
             </div>
           </div>
         </div>
-        <section class="board__menu">
+        <section class="board__menu board__menu-visible">
           <div class="board__menu__position">
             <h2>MENU</h2>
             <div class="board__menu__list">
-              <ul class="board__menu__list__item">
-                MAN
-                <div class="board__menu__list__box">
-                  <li>Accessories</li>
-                  <li>Bags</li>
-                  <li>Denim</li>
-                  <li>T-Shirts</li>
-                </div>
+              <h2 class="board__menu__list__item">MAN</h2>
+              <ul class="board__menu__list__box">
+                <li>Accessories</li>
+                <li>Bags</li>
+                <li>Denim</li>
+                <li>T-Shirts</li>
               </ul>
-              <ul class="board__menu__list__item">
-                WOMAN
-                <div class="board__menu__list__box">
-                  <li>Accessories</li>
-                  <li>Jackets &amp Coats</li>
-                  <li>Polos</li>
-                  <li>T-Shirts</li>
-                  <li>Shirts</li>
-                </div>
+              <h2 class="board__menu__list__item">WOMAN</h2>
+              <ul class="board__menu__list__box">
+                <li>Accessories</li>
+                <li>Jackets &amp; Coats</li>
+                <li>Polos</li>
+                <li>T-Shirts</li>
+                <li>Shirts</li>
               </ul>
-              <ul class="board__menu__list__item">
-                KIDS
-                <div class="board__menu__list__box">
-                  <li>Accessories</li>
-                  <li>Jackets &amp Coats</li>
-                  <li>Polos</li>
-                  <li>T-Shirts</li>
-                  <li>Shirts</li>
-                  <li>Bags</li>
-                </div>
+              <h2 class="board__menu__list__item">KIDS</h2>
+              <ul class="board__menu__list__box">
+                <li>Accessories</li>
+                <li>Jackets &amp; Coats</li>
+                <li>Polos</li>
+                <li>T-Shirts</li>
+                <li>Shirts</li>
+                <li>Bags</li>
               </ul>
             </div>
           </div>
         </section>
       </header>
       <section class="offer-items">
+        <h2 style="display: none">Разделы товаров</h2>
         <article class="offer-items__image">
-          <img src="./img/offer1.png" alt="product" />
+          <img src="./img/offer1.webp" alt="product" />
           <img
             class="shadow-image"
-            src="./img/shadow-image1.png"
+            src="./img/shadow-image1.webp"
             alt="shadow"
           />
           <div class="offer-items__docket">
@@ -174,10 +169,10 @@
           </div>
         </article>
         <article class="offer-items__image">
-          <img src="./img/offer2.png" alt="product" />
+          <img src="./img/offer2.webp" alt="product" />
           <img
             class="shadow-image"
-            src="./img/shadow-image1.png"
+            src="./img/shadow-image1.webp"
             alt="shadow"
           />
           <div class="offer-items__docket">
@@ -186,10 +181,10 @@
           </div>
         </article>
         <article class="offer-items__image">
-          <img src="./img/offer3.png" alt="product" />
+          <img src="./img/offer3.webp" alt="product" />
           <img
             class="shadow-image"
-            src="./img/shadow-image1.png"
+            src="./img/shadow-image1.webp"
             alt="shadow"
           />
           <div class="offer-items__docket">
@@ -199,14 +194,14 @@
         </article>
         <article class="offer-items__accesories">
           <div class="offer-items__image">
-            <img src="./img/offer4.png" alt="product" />
+            <img src="./img/offer4.webp" alt="product" />
             <img
               class="shadow-image"
-              src="./img/shadow-image2.png"
+              src="./img/shadow-image2.webp"
               alt="shadow"
             />
             <div class="offer-items__docket docket__resize">
-              <h2>LUXIROUS & TRENDY</h2>
+              <h2>LUXIROUS &amp; TRENDY</h2>
               <h3>ACCESORIES</h3>
             </div>
           </div>
@@ -217,6 +212,7 @@
         <p>Shop for items based on what we featured in this week</p>
       </div>
       <section class="products-items">
+        <h2 style="display: none">Товары</h2>
         <article class="products-items__content">
           <div class="products-items__content__image">
             <div class="image-shadow">
@@ -244,17 +240,17 @@
               </button>
             </div>
             <figure>
-              <img src="./img/product1.png" alt="product" />
+              <img src="./img/product1.webp" alt="product" />
             </figure>
           </div>
-          <figcaption>
+          <div class="figcaption">
             <h2>ELLERY X M'O CAPSULE</h2>
             <p>
               Known for her sculptural takes on traditional tailoring,
               Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
             </p>
             <h3>$52.00</h3>
-          </figcaption>
+          </div>
         </article>
         <article class="products-items__content">
           <div class="products-items__content__image">
@@ -284,18 +280,18 @@
             </div>
             <figure>
               <div class="products-items__box2">
-                <img src="./img/product2.png" alt="product" />
+                <img src="./img/product2.webp" alt="product" />
               </div>
             </figure>
           </div>
-          <figcaption>
+          <div class="figcaption">
             <h2>ELLERY X M'O CAPSULE</h2>
             <p>
               Known for her sculptural takes on traditional tailoring,
               Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
             </p>
             <h3>$52.00</h3>
-          </figcaption>
+          </div>
         </article>
         <article class="products-items__content">
           <div class="products-items__content__image">
@@ -324,17 +320,17 @@
               </button>
             </div>
             <figure>
-              <img src="./img/product3.png" alt="product" />
+              <img src="./img/product3.webp" alt="product" />
             </figure>
           </div>
-          <figcaption>
+          <div class="figcaption">
             <h2>ELLERY X M'O CAPSULE</h2>
             <p>
               Known for her sculptural takes on traditional tailoring,
               Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
             </p>
             <h3>$52.00</h3>
-          </figcaption>
+          </div>
         </article>
         <article class="products-items__content">
           <div class="products-items__content__image">
@@ -363,17 +359,17 @@
               </button>
             </div>
             <figure>
-              <img src="./img/product4.png" alt="product" />
+              <img src="./img/product4.webp" alt="product" />
             </figure>
           </div>
-          <figcaption>
+          <div class="figcaption">
             <h2>ELLERY X M'O CAPSULE</h2>
             <p>
               Known for her sculptural takes on traditional tailoring,
               Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
             </p>
             <h3>$52.00</h3>
-          </figcaption>
+          </div>
         </article>
         <article class="products-items__content">
           <div class="products-items__content__image">
@@ -402,17 +398,17 @@
               </button>
             </div>
             <figure>
-              <img src="./img/product5.png" alt="product" />
+              <img src="./img/product5.webp" alt="product" />
             </figure>
           </div>
-          <figcaption>
+          <div class="figcaption">
             <h2>ELLERY X M'O CAPSULE</h2>
             <p>
               Known for her sculptural takes on traditional tailoring,
               Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
             </p>
             <h3>$52.00</h3>
-          </figcaption>
+          </div>
         </article>
         <article class="products-items__content">
           <div class="products-items__content__image">
@@ -441,17 +437,17 @@
               </button>
             </div>
             <figure>
-              <img src="./img/product6.png" alt="product" />
+              <img src="./img/product6.webp" alt="product" />
             </figure>
           </div>
-          <figcaption>
+          <div class="figcaption">
             <h2>ELLERY X M'O CAPSULE</h2>
             <p>
               Known for her sculptural takes on traditional tailoring,
               Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
             </p>
             <h3>$52.00</h3>
-          </figcaption>
+          </div>
         </article>
       </section>
       <div class="main-bottom__area">
@@ -460,6 +456,7 @@
     </main>
     <footer class="container">
       <section class="footer-items">
+        <h2 style="display: none">Дополнительная информация</h2>
         <article class="footer-items__box">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -490,7 +487,7 @@
               d="m19.994 37.024-3.471 2.9-2.288-3.92-4.24 1.512-.822-4.48-4.493-.045.732-4.5-4.208-1.6 2.21-3.966L0 19.96l3.412-2.967-2.21-3.965 4.209-1.6-.733-4.495 4.494-.044.822-4.48 4.24 1.51L16.522 0l3.47 2.9L23.465 0l2.289 3.92 4.24-1.511.82 4.48 4.495.046-.732 4.495 4.208 1.6-2.21 3.966 3.412 2.965-3.412 2.967 2.209 3.966-4.21 1.6.734 4.494-4.495.045-.821 4.48-4.238-1.51-2.29 3.92-3.47-2.9ZM21.2 35.54l1.76 1.471 1.162-1.99.792-1.356 1.468.523 2.15.768.418-2.273.285-1.555 1.56-.016 2.283-.021-.372-2.282-.254-1.56 1.459-.554 2.134-.813-1.12-2.01-.766-1.375 1.183-1.027 1.734-1.51-1.733-1.5-1.183-1.03.766-1.375 1.12-2.011-2.133-.811-1.46-.553.256-1.56.372-2.281-2.282-.023-1.56-.016-.285-1.554-.416-2.273-2.152.767-1.468.523-.793-1.357-1.162-1.99-1.762 1.47-1.205 1.006-1.205-1.005-1.761-1.471-1.161 1.989-.792 1.357-1.47-.523-2.15-.768-.417 2.274-.285 1.554-1.56.016-2.281.022.372 2.282.254 1.558-1.46.555-2.134.81 1.12 2.012.767 1.375-1.183 1.029-1.734 1.508 1.733 1.507 1.183 1.029-.766 1.375-1.121 2.01 2.133.81 1.46.555-.255 1.559-.371 2.284 2.28.023 1.56.016.286 1.555.417 2.272 2.152-.767 1.469-.523.792 1.357 1.162 1.99 1.76-1.471 1.206-1.005 1.204.998Zm.118-12.521c0-2.927 1.565-4.555 3.459-4.555 2.006 0 3.3 1.563 3.3 4.33 0 3.059-1.585 4.577-3.415 4.577-1.78 0-3.324-1.45-3.344-4.352Zm1.52-.088c-.022 1.85.683 3.258 1.873 3.258 1.277 0 1.85-1.385 1.85-3.3 0-1.765-.507-3.237-1.85-3.237-1.211-.004-1.872 1.45-1.872 3.278Zm-7.644 4.4 8.415-14.719h1.233l-8.415 14.719h-1.233ZM11.979 16.99c0-2.9 1.563-4.532 3.458-4.532 2 0 3.326 1.564 3.326 4.332 0 3.058-1.586 4.575-3.436 4.575-1.783 0-3.327-1.45-3.348-4.374v-.001Zm1.542-.066c-.044 1.85.64 3.257 1.85 3.259 1.277 0 1.85-1.384 1.85-3.3 0-1.766-.507-3.238-1.85-3.238-1.21-.003-1.85 1.447-1.85 3.28v-.001Z"
             />
           </svg>
-          <h3>Sales &amp discounts</h3>
+          <h3>Sales &amp; discounts</h3>
           <p>
             Worldwide delivery on all. Authorit tively morph next-generation
             innov tion with extensive models.
@@ -516,16 +513,17 @@
         </article>
       </section>
       <section class="footer-board">
+        <h2 style="display: none">Подписка</h2>
         <div class="footer-board__shadow">
-          <img src="./img/fotter-board-image.png" alt="" />
+          <img src="./img/fotter-board-image.webp" alt="" />
         </div>
         <div class="footer-board__content">
           <article class="footer-board__content__left">
             <img src="./img/face.webp" alt="face" />
-            <p>
+            <h2>
               “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
               <i>a pulvinar purus condimentum“</i>
-            </p>
+            </h2>
           </article>
           <article class="footer-board__content__right">
             <div class="footer-board__content__right__text">
@@ -547,6 +545,7 @@
         </div>
       </section>
       <section class="footer-bottom">
+        <h2 style="display: none">Социальные сети</h2>
         <p>© 2021 Brand All Rights Reserved.</p>
         <div class="footer-bottom__logo">
           <a class="footer-bottom__logo__item" href="#">
@@ -596,7 +595,7 @@
                 />
               </g>
               <defs>
-                <clipPath id="a">
+                <clipPath id="c">
                   <path fill="#fff" d="M.684 0h14.899v17H.684z" />
                 </clipPath>
               </defs>
@@ -662,7 +661,7 @@
                 />
               </g>
               <defs>
-                <clipPath id="a">
+                <clipPath id="d">
                   <path fill="#fff" d="M.16 0H16.05v16H.16z" />
                 </clipPath>
               </defs>
@@ -671,5 +670,6 @@
         </div>
       </section>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
