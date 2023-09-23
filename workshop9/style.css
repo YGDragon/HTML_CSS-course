@@ -36,6 +36,7 @@
   align-items: end;
   gap: 25px;
   margin-left: 859px;
+  cursor: pointer;
 }
 
 .header__menu-basket {
@@ -73,6 +74,7 @@
   min-height: 765px;
   display: grid;
   grid-template-rows: 0;
+  margin-bottom: 65px;
 }
 
 .board__content {
@@ -83,7 +85,6 @@
   width: 1600px;
   height: 765px;
   background-color: #f1e4e6;
-  margin-bottom: 65px;
   grid-area: 1/ 1/ 1/ 1;
 }
 
@@ -592,6 +593,7 @@
   }
 
   .board {
+    min-width: 768px;
     min-height: 368px;
     display: block;
   }
@@ -753,6 +755,7 @@
   }
 
   .board {
+    min-width: 375px;
     min-height: 363px;
     display: block;
   }
@@ -761,12 +764,14 @@
     width: 375px;
     height: 363px;
     margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
   }
 
   .board__content__docket {
     max-width: 375px;
     height: 363px;
-    padding: 148px 56px;
+    padding: 0;
   }
 
   .board__content__docket__border {
