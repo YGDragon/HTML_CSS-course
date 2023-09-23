@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("./font/Gilroy-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("./font/Gilroy-Regular.woff2");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1230px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ffffff;
+}
+
+.features__item {
+  max-width: 370px;
+  padding: 40px 0px 25px 0px;
+}
+
+.features__shadow {
+  box-shadow: 15px 25px 56px 6px #0000000f;
+}
+
+.features__item2 {
+  max-width: 370px;
+  padding: 40px 30px 25px 30px;
+}
+
+.features img {
+  margin-bottom: 25px;
+}
+
+.features h3 {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-bottom: 17px;
+}
+
+.features p {
+  max-width: 280px;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 23px;
+  color: #666666;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.features button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  line-height: 17px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  padding-top: 92px;
+  padding-bottom: 100px;
+  background-color: #fafafa;
+}
+
+.services__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__header h1 {
+  width: 579px;
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 19px;
+}
+
+.services__header p {
+  width: 682px;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 54px;
+  text-align: center;
+}
+
+.services__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.services__list h3 {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.services__list p {
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  width: 310px;
+  margin: 0 auto;
+  margin-bottom: 39px;
+}
+
+.services img {
+  max-width: 370px;
+  min-height: 300px;
+}
+
+.services__item {
+  background: #ffffff;
+}
+
+.services__shadow {
+  box-shadow: 15px 25px 60px -5px #0000001a;
+}
+
+.services__buttom {
+  display: flex;
+  justify-content: center;
+}
+
+.services__list button {
+  min-width: 150px;
+  min-height: 50px;
+  background: #f25822;
+  border-radius: 50px;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: Gilroy-Bold;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}

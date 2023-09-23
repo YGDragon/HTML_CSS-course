@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLOTHING STORE</title>
+    <link rel="shortcut icon" href="./img/Group 2.svg" type="image/svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <nav class="navigation">
+        <div class="header__logo">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="44"
+              height="38"
+              fill="none"
+            >
+              <path fill="url(#a)" d="M0 0h44v38H0z" />
+              <defs>
+                <pattern
+                  id="a"
+                  width="1"
+                  height="1"
+                  patternContentUnits="objectBoundingBox"
+                >
+                  <use xlink:href="#b" transform="scale(.02273 .02632)" />
+                </pattern>
+                <image
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAmCAYAAAC/H3lnAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAALKADAAQAAAABAAAAJgAAAACVFt04AAAKGElEQVRYCa2Ya5BURxXHT987M/uYfbJsdiG7hMhGXlYkSWnioyooIVR8hVKjlUSNBKgYTVmFFassTXzhBz9o+UyMFYGSsoxiJdGUHywqpYRoICEgWOERCG9YWFiWfc/uzNzb/s6dOzN3ZmdhoTi7/7l9u093nz59+pzT12Q3vypRMo4j6cPHxbs4IP7QiJh4TMSYKMsyXl6MVlBeBf5YqBtNib3z/WLnd4mkM4Xqa1FAmlKyvi+Jm24UPzUm2Z5e8bp7xGaYlIWEpH1q8i+Rulwx64lMnya2rVXEo3yNqSBFdFybzYpJxCUxZ5YkFqAl1y1pjr6EZRs8WaxUxcW/+8MizQ0iWd6vMVUUOJjDWrHjaXGbmyTeNVvs5bZWzSaTFduOZuuTQVlKLOnaSD7BJCYMi7bdxjoEbxRvaFjUxivS2LjIjZ3Y7u1otmAKc+G9BXSCZlAF0uAiOAJ2gONgynRZgS2adpK14rY0iTc4yMAVBTZ6MO27kCsRT8rY+H0wPgAWgjbglh1cqmxGrJyhsB+sA38HKXBJuqzA9DaYg43Nmile70Xxh0eiB1BE7TYeT/kP3uNg6w8g7Lfoo4LCxyLYEVYjBj7D4gPCVFBD3HedWfSfRf0ysXYnbT8EL+WYKv9eSuAuuqwBJ8GPg+75CYOX8EfrWpo6xHV+R82KwG5Nbhfc0TExfez+IIvE1amNswSxMaatTohbXyfS1CA+Nu+77m0I/VfwK8b5AegLZyh5VBL4eji+Bh4CMwGzyV/AYdGJysm34s/ueBK314yBB5p0ei+IOXxS7LkLYhE6OIy6E/kFYz4G7QfeRwXHDcY6Z0p2RqvxqxNfF9/Og3cFU3WXT1dBAnkCpq9EGJOUH2eARxPz58jYG3siTWFRhWUxTt+AOHsPiT1xWvzAqyCUCsa/xEpcI8OxM7qIkZR4w6fYxzMSw8PYeXMk2956tzVmI0x6Ds5FJ6x0gv4Aw0CUifJ97ORtZXWFV4PG3COnxNmyTfxDx8Sq/1Xf7TK8ujtFOeXr1euEfj576qzY13ZK/K2D4mSyS1jsWrpVR7tWEvg/MPwtykS5BTwS1iFNhNCcc+yU2O27xB8YzmmygnyRHpMXGcvHPXp79kv8v/vEHcusxNQ+G+1gynOJsHE+zzdBbYHZmBFC9KKx7btvYHtfZrsKTYXyZJrUg2vtUTqoX9QF1wM9K+8GE0k9CmfDVfNYNH+fn4h/FPPpUUYnmEwnjwpQ9I3FwaxNmljsG7HOGaL5RgnltzdaSZ1xna1oaBUm8TGaloBPgnuDsjH38Pw8eH6CyWAmFnPyDh6V2KFjC5Btef4sOKnr22QUIbyaanE8BCkK/jSDqWMvEJnbZ5yW5o8Eh6VQW1ZQxcfcFPa7BkE+wXgaFN4C2Qinch0Bm8D9QLddd6BILBgHKP7+w+L29q1G43FDBHVQN37RlbG2FkkTgvU9FPoAvTcWR6Bk7XQyMHV5lYnFmkSs16muWs5cPwdDlRlLajX/fB6o9neVtKBpf2RUnP2Hb3JHRu+K4cuLJgFnagbyJGsCXxp2/C3PqC/UQ9oUtpU+VFhcm6mp1sO5OVi06nHqtBfWlezKyZIumIbfc6Eh3n1uaeLiUGli4KSzkiHqpDrackLnDsr6kgEmfTHi1NX+wqmufsHBvDT3MA11YjUnLprZpL3Dht2BKzOGTiERjKx6jvN9C1lM0wS3prHfwywyTBaaxy/pime/BHlot6aq253WuIGnmNqaXMLE4mMtBMCimU0cRA+wIn9wfbuJBW4pMOIi9ZDbgaE7EPzWvMCNMHwVdOUYTc48mJik5Tx1P8vVT/JrSGUa6rY5DfV7eGpZHIR1yBMSszt0MbmUUw91AShRBZ3G1OyGkL6GGOCdk0bgCU0Kb6P+ucFmvRmxUIRP8XwKaMKhp/o3mMfRTENSsrXVUnu650+EyhXUvweUUmi7TlXVPq9f3WwpIZK4SaL7yJj43EYC0ny5fbrYGzpyobu0Cwux1ry+O7wEoGL1GFwmbHo8EFiDw8Nhn2k8vwlWgw2Yx3M2YXakG+u73fH0OtfzfkI9S59AaSdZQ5IxSYhDk/7tHUKSpPtb7BxosPxkMkY222CCcK1tOYGD+2HWv041rO5kMYiSeoI14At0eGmsveXp6vP9z7r9g1+k7tYoY1A2JsMBO19JXM2B0w31kkajhtvL5cm2SyLRFbn0Bl2CYMXCVeAFgCRASE4nUCs1KzGPz2Ua6/7sev5W0z90M1uUN6V8h2o/5s618djWvN2pAVo3JpnWZp5cONRep0YfEt9bVDDgfJ/coRzWib8HXgZqBveCBlBO9dbIqrHpTeNVvX2+cfRAIIAOouR5ruc4S8c7ZzwbRMtcbfF36m4tgWZXyMhIPHIvDMYJ5nSdnryXeJXaL4GlQA/fxLsV5mQdU5VpaUo4CdaZF0KFxtfa/sG7HGuX0DfXpu15BJVT+llBWP+4c/6iCIdMLwQBkQgFQSnm9ucFzo/2BoXHwC3gGRBkSDxzpLcLDQbYZDSf0GTcnDnf7I6lf43W1cSuhpZwvtaySpGzeNK0ChwOowuvivf5w6nT5QLnJ3qbwqNgMfgpOAECIS03aP86dSYRwkZ9LqjOie55CLyJlsWR1qkUH4RpI5fZVudMr5jT6IkAlqfw5r6FgLSzWJtvLX1qAvQ4WAa+C3o4EGSybXysqilqGbOwWn8Af39xcCFO/wV41QV2gkvRQhrXgfX0mWkwA8Ntw+qFNS+w7h6Bw21seM2pr02ZgbcPX2rA8jb1Go9wf3vIeeX1Ljl2OncNynMREGId7eK9773iEXQwm37s+J80vwIOglGgLlMTd1XCB0BSo5q6P4f7oiUHLghLo0ZGU1ezLz6784MmWTNwpQLrEHoHm25OdD9mtu16ghsxs4XGpramvrK9TeyiuZJtbcl5uclcmvbTKxZfSZ09B8Q/krO8wng6l7K0ta7EHNYHY2vdFZMxveb4qe+jPe715slCfxUAbWXPnhP330MS59OVP7tTvLraIOcuHiJ6sDiip5iD3WLfOSY+N+7crSJcvA6qWk8mn2NHN1i+aeiBLA8AyjY1GiTWeN6PUEEXHe4v6YTNeVzf1R4Nt+n4dKygqVGs5tr82XG+VZB3+L1YDONY9ekstIQQ1lRX7QDfhoEoxO5BVy9w7lDge4IQrlFSQ3yRaNcpbCol/glM9zj2npszdFdoUr9ZKMrTE/W7VYm95NWrEfRYcVDYoy9XWVZfrUHn9xX7q5no4lSD2GsALbMLJbYa6WyqYpsReDmKJaEqpWshsI7YD76MABp0jmvFFVOwMHOOxa0Fmu6+U2mMqzeJSqNpWDfyD1T3MFv5aVjmVWYrq3XMWWz7RcxjPUn6mxNMJMJ+rQXWoXHs9jto+xmEvpn3O9HYHTy7cEv11CObSWEoJ0gZt1P+F4Hhf3zeOmjIsC5H/wdL2rGKfdbDqAAAAABJRU5ErkJggg=="
+                  id="b"
+                  width="44"
+                  height="38"
+                />
+              </defs>
+            </svg>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="27"
+              height="28"
+              fill="none"
+            >
+              <path
+                fill="#E8E8E8"
+                d="M19.059 17.625A10.395 10.395 0 1 0 11.419 21a10.319 10.319 0 0 0 6.24-2.09l7.749 7.807a.927.927 0 0 0 .66.285.903.903 0 0 0 .66-.285.971.971 0 0 0 0-1.346l-7.67-7.746ZM2.886 10.5a8.535 8.535 0 1 1 8.534 8.6 8.575 8.575 0 0 1-8.534-8.6Z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="header__menu">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="23"
+              fill="none"
+            >
+              <path
+                fill="#E8E8E8"
+                d="M0 23v-2.69h32V23H0Zm0-10.24v-2.69h32v2.69H0ZM0 2.69V0h32v2.69H0Z"
+              />
+            </svg>
+          </a>
+          <a class="header-hide" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="29"
+              height="29"
+              fill="none"
+            >
+              <path
+                fill="#E8E8E8"
+                d="M14.5 19.937c4.5 0 8.156-4.473 8.156-9.969C22.656 4.472 19 0 14.5 0a7.45 7.45 0 0 0-5.834 3 11.159 11.159 0 0 0-2.322 6.974c0 5.491 3.656 9.963 8.156 9.963Zm0-18.124c3.5 0 6.344 3.659 6.344 8.156 0 4.497-2.846 8.156-6.344 8.156s-6.344-3.66-6.345-8.156C8.154 5.473 11 1.813 14.5 1.813Zm6.344 16.312a.907.907 0 0 0 0 1.813 6.351 6.351 0 0 1 6.344 6.344.908.908 0 0 1-.906.906H2.72a.908.908 0 0 1-.906-.906 6.352 6.352 0 0 1 6.344-6.344.906.906 0 0 0 0-1.812A8.165 8.165 0 0 0 0 26.281 2.722 2.722 0 0 0 2.719 29h23.563A2.722 2.722 0 0 0 29 26.281a8.166 8.166 0 0 0-8.156-8.156Z"
+              />
+            </svg>
+          </a>
+          <a class="header-hide" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="29"
+              fill="none"
+            >
+              <path
+                fill="#E8E8E8"
+                d="M26.2 29a2.477 2.477 0 1 1 .2 0h-.2ZM6.752 26.32a2.68 2.68 0 1 1 5.364 0 2.68 2.68 0 0 1-5.366 0h.002Zm3.8-5.634a1.184 1.184 0 0 1-1.145-.867L4.574 2.364H1.18A1.182 1.182 0 0 1 1.18 0h4.28a1.183 1.183 0 0 1 1.145.868l4.833 17.455h13.178L29 8.275H14.4a1.183 1.183 0 1 1 0-2.365h16.413a1.178 1.178 0 0 1 .986.533 1.191 1.191 0 0 1 .1 1.122l-5.405 12.412a1.185 1.185 0 0 1-1.084.709H10.552Z"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <header class="board">
+        <img src="./img/board-image.png" alt="board" />
+        <div class="board-docket">
+          <div class="board-docket__border"></div>
+          <div class="board-docket__text">
+            <h1 class="font__900">THE BRAND</h1>
+            <h2 class="font__700">
+              OF LUXERIOUS <span style="color: #f16d7f">FASHION</span>
+            </h2>
+          </div>
+        </div>
+      </header>
+      <section class="offer-items">
+        <article class="offer-items__image">
+          <img src="./img/offer1.png" alt="product" />
+          <img
+            class="shadow-image"
+            src="./img/shadow-image1.png"
+            alt="shadow"
+          />
+          <div class="offer-items__docket">
+            <h2>30% OFF</h2>
+            <h3>FOR WOMEN</h3>
+          </div>
+        </article>
+        <article class="offer-items__image">
+          <img src="./img/offer2.png" alt="product" />
+          <img
+            class="shadow-image"
+            src="./img/shadow-image1.png"
+            alt="shadow"
+          />
+          <div class="offer-items__docket">
+            <h2>HOT DEAL</h2>
+            <h3>FOR MEN</h3>
+          </div>
+        </article>
+        <article class="offer-items__image">
+          <img src="./img/offer3.png" alt="product" />
+          <img
+            class="shadow-image"
+            src="./img/shadow-image1.png"
+            alt="shadow"
+          />
+          <div class="offer-items__docket">
+            <h2>NEW ARRIVALS</h2>
+            <h3>FOR KIDS</h3>
+          </div>
+        </article>
+        <article class="offer-items__accesories">
+          <div class="offer-items__image">
+            <img src="./img/offer4.png" alt="product" />
+            <img
+              class="shadow-image"
+              src="./img/shadow-image2.png"
+              alt="shadow"
+            />
+            <div class="offer-items__docket docket__resize">
+              <h2>LUXIROUS & TRENDY</h2>
+              <h3>ACCESORIES</h3>
+            </div>
+          </div>
+        </article>
+      </section>
+      <div class="main-docket">
+        <h1 class="font__400">Fetured Items</h1>
+        <p>Shop for items based on what we featured in this week</p>
+      </div>
+      <section class="products-items">
+        <article>
+          <figure>
+            <img src="./img/product1.png" alt="product" />
+          </figure>
+          <figcaption>
+            <h1>ELLERY X M'O CAPSULE</h1>
+            <p>
+              Known for her sculptural takes on traditional tailoring,
+              Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+            </p>
+            <h2>$52.00</h2>
+          </figcaption>
+        </article>
+        <article>
+          <figure>
+            <div class="products-items__box2">
+              <img src="./img/product2.png" alt="product" />
+            </div>
+          </figure>
+          <figcaption>
+            <h1>ELLERY X M'O CAPSULE</h1>
+            <p>
+              Known for her sculptural takes on traditional tailoring,
+              Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+            </p>
+            <h2>$52.00</h2>
+          </figcaption>
+        </article>
+        <article>
+          <figure>
+            <img src="./img/product3.png" alt="product" />
+          </figure>
+          <figcaption>
+            <h1>ELLERY X M'O CAPSULE</h1>
+            <p>
+              Known for her sculptural takes on traditional tailoring,
+              Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+            </p>
+            <h2>$52.00</h2>
+          </figcaption>
+        </article>
+        <article>
+          <figure>
+            <img src="./img/product4.png" alt="product" />
+          </figure>
+          <figcaption>
+            <h1>ELLERY X M'O CAPSULE</h1>
+            <p>
+              Known for her sculptural takes on traditional tailoring,
+              Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+            </p>
+            <h2>$52.00</h2>
+          </figcaption>
+        </article>
+        <article>
+          <figure>
+            <img src="./img/product5.png" alt="product" />
+          </figure>
+          <figcaption>
+            <h1>ELLERY X M'O CAPSULE</h1>
+            <p>
+              Known for her sculptural takes on traditional tailoring,
+              Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+            </p>
+            <h2>$52.00</h2>
+          </figcaption>
+        </article>
+        <article>
+          <figure>
+            <img src="./img/product6.png" alt="product" />
+          </figure>
+          <figcaption>
+            <h1>ELLERY X M'O CAPSULE</h1>
+            <p>
+              Known for her sculptural takes on traditional tailoring,
+              Australian arbiter of cool Kym Ellery teams up with Moda Operandi.
+            </p>
+            <h2>$52.00</h2>
+          </figcaption>
+        </article>
+      </section>
+      <div class="main-bottom__area">
+        <button>Browse All Product</button>
+      </div>
+    </main>
+  </body>
+</html>
