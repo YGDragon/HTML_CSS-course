@@ -291,7 +291,7 @@
 .image-shadow {
   height: 420px;
   width: 360px;
-  background-image: url(./img/shadow-image3.png);
+  background-image: url(./img/shadow-image3.webp);
 }
 
 .products-items__content:hover .image-shadow {
